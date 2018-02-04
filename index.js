@@ -28,7 +28,7 @@ function viewCart() {
 
 function total() {
   let total = 0;
-for(let i = 0; i<cart.length; i++){
+for(let i = 0; i<cart.length +1; i++){
     let object = cart[i]
     let value = Object.values(object)
     total = total + value;
