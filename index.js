@@ -30,6 +30,7 @@ function total() {
   let prices = [];
 for(let i = 0; i<cart.length; i++){
     let object = cart[i]
+    prices.push(object);
 }
 }
 
