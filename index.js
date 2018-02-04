@@ -31,7 +31,7 @@ function total() {
 for(let i = 0; i<cart.length; i++){
     let object = cart[i]
     prices.push(object);
-}
+} 
 }
 
 function removeFromCart(item) {
