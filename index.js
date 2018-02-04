@@ -27,10 +27,10 @@ function viewCart() {
 }
 
 function total() {
-  let prices = [];
+  let total = 0;
 for(let i = 0; i<cart.length; i++){
     let object = cart[i]
-    prices.push(object);
+    total = total + object;
 } 
 }
 
