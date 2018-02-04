@@ -25,6 +25,7 @@ function viewCart() {
    for(let i = 0; i<cart.length; i++){
     let object = cart[i]
     let value = Object.values(object)
+    let truevalue = value[0]
     let key = Object.keys(object)
    console.log(`In your cart, you have ${key} at ${value}.`)
  }
