@@ -83,7 +83,7 @@ function viewCart() {
   let price2 = valueArray[1]
   let price3 = valueArray[2]
   let price4 = valueArray[4]
-  console.log(`In your cart, you have ${item1} at $${price1}, ${item2} at $${price2}, and ${item3} at $${price3}.`)
+  console.log(`In your cart, you have ${item1} at $${price1}, ${item2} at $${price2}, ${item3} at $${price3}, and ${item4} at $${price4}.`)
 } 
 }
 
