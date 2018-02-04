@@ -46,25 +46,7 @@ function viewCart() {
   let price1 = valueArray[0]
   let price2 = valueArray[1]
   console.log(`In your cart, you have ${item1} at $${price1} and ${item2} at $${price2}.`)
-} else if(cart.length === 2){
-  let valueArray =[]
-  let keyArray =[]
-    for(let i = 0; i<cart.length; i++){
-   let object = cart[i]
-    let value = Object.values(object)
-    let trueValue = value[0]
-    let key = Object.keys(object)
-    let trueKey = key[0]
-    valueArray.push(trueValue)
-    keyArray.push(trueKey)
-  } let item1 = keyArray[0]
-  let item2 = keyArray[1]
-  let item3 = keyArray[2]
-  let price1 = valueArray[0]
-  let price2 = valueArray[1]
-  let price3 = valueArray[2]
-  console.log(`In your cart, you have ${item1} at $${price1}, ${item2} at $${price2}, and ${item3} at ${price3}.`)
-}
+} 
 }
 
 function total() {
