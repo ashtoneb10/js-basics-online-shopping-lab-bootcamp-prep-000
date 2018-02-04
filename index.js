@@ -37,7 +37,8 @@ for(let i = 0; i<cart.length; i++){
 }
 
 function removeFromCart(item) {
-  // write your code here
+  for(let i = 0; i<cart.length; i++){
+    let object = cart[i]
 }
 
 function placeOrder(cardNumber) {
