@@ -27,7 +27,10 @@ function viewCart() {
 }
 
 function total() {
-
+  let prices = [];
+for(let i = 0; i<cart.length; i++){
+    let object = cart[i]
+}
 }
 
 function removeFromCart(item) {
