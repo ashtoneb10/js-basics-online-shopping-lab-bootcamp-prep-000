@@ -27,6 +27,7 @@ function viewCart() {
     let value = Object.values(object)
     let truevalue = value[0]
     let key = Object.keys(object)
+    let trueKey = key[0]
    console.log(`In your cart, you have ${key} at ${value}.`)
  }
 }
