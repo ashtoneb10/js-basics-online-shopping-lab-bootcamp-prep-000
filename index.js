@@ -31,7 +31,8 @@ function total() {
 for(let i = 0; i<cart.length; i++){
     let object = cart[i]
     let value = Object.values(object)
-    total = total + value;
+    let totalString = parseInt(value)
+    total = total + totalString
 } return total
 }
 
