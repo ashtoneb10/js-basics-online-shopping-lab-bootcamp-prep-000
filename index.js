@@ -27,7 +27,6 @@ function viewCart() {
 }
 
 function total() {
- var total = ;
 
 }
 
