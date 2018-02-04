@@ -30,6 +30,10 @@ function viewCart() {
     let trueKey = key[0]
    console.log(`In your cart, you have ${trueKey} at $${trueValue}.`)
  }
+} else if(cart.length === 2){
+  for(let i = 0; i<cart.length; i++){
+    
+  }
 }
 }
 
