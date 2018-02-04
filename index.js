@@ -31,8 +31,8 @@ function viewCart() {
    console.log(`In your cart, you have ${trueKey} at $${trueValue}.`)
  }
 } else if(cart.length === 2){
-  valueArray =[]
-  keyArray =[]
+  let valueArray =[]
+  let keyArray =[]
   let item1 = keyArray[0]
   let item2 = keyArray[1]
   let price1 = valueArray[0]
