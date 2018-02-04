@@ -37,9 +37,9 @@ for(let i = 0; i<cart.length; i++){
 }
 
 function removeFromCart(item) {
+  let total = 0
   for(let i = 0; i<cart.length; i++){
     let object = cart[i]
-    let total = 0
     if(object.hasOwnProperty(item)){
       delete cart[i]
     } else {
