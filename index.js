@@ -42,7 +42,14 @@ function removeFromCart(item) {
     let total = 0
     if(object.hasOwnProperty(item)){
       cart.splice(i,1,cart.length)
-    } else total = total ++
+    } else {
+      total = total ++
+    } 
+} if(total === cart.length){
+  console.log(`That item is not in your cart.`)
+} else {
+  return cart;
+}
 }
 
 function placeOrder(cardNumber) {
