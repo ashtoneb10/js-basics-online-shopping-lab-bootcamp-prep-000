@@ -31,10 +31,9 @@ function viewCart() {
    console.log(`In your cart, you have ${trueKey} at $${trueValue}.`)
  }
 } else if(cart.length === 2){
-  
-  for(let i = 0; i<cart.length; i++){
   valueArray =[]
   keyArray =[]
+  for(let i = 0; i<cart.length; i++){
    let object = cart[i]
     let value = Object.values(object)
     let trueValue = value[0]
