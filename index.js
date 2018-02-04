@@ -64,7 +64,7 @@ function viewCart() {
   let price2 = valueArray[1]
   let price3 = valueArray[2]
   console.log(`In your cart, you have ${item1} at $${price1}, ${item2} at $${price2}, and ${item3} at $${price3}.`)
-} else if(cart.length ===3){
+} else if(cart.length ===4){
   let valueArray =[]
   let keyArray =[]
     for(let i = 0; i<cart.length; i++){
