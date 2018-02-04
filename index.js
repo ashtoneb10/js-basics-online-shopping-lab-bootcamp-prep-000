@@ -39,6 +39,10 @@ for(let i = 0; i<cart.length; i++){
 function removeFromCart(item) {
   for(let i = 0; i<cart.length; i++){
     let object = cart[i]
+    let total = 0
+    if(object.hasOwnProperty(item)){
+      cart.splice(i,1,cart.length)
+    } else total = total ++
 }
 
 function placeOrder(cardNumber) {
