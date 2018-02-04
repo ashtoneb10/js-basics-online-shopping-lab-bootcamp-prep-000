@@ -22,6 +22,9 @@ function viewCart() {
  if(cart.length === 0){
    console.log('Your shopping cart is empty.') 
  } else if (cart.length === 1){
+   for(let i = 0; i<cart.length; i++){
+    let object = cart[i]
+    let value = Object.values(object)
    console.log(`In your cart, you have`)
  }
 }
