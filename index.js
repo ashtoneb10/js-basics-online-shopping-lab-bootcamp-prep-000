@@ -33,6 +33,10 @@ function viewCart() {
 } else if(cart.length === 2){
   valueArray =[]
   keyArray =[]
+  let item1 = keyArray[0]
+  let item2 = keyArray[1]
+  let price1 = valueArray[0]
+  let price2 = valueArray[1]
   for(let i = 0; i<cart.length; i++){
    let object = cart[i]
     let value = Object.values(object)
