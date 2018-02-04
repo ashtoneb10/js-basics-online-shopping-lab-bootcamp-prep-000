@@ -57,8 +57,13 @@ function viewCart() {
     let trueKey = key[0]
     valueArray.push(trueValue)
     keyArray.push(trueKey)
-  } 
-  console.log(`In your cart, you have ${item1} at $${price1}, ${item2} at $${price2}, ${item3} at $${price3}, and ${item4} at $${price4}.`)
+  } let item1 = keyArray[0]
+  let item2 = keyArray[1]
+  let item3 = keyArray[2]
+  let price1 = valueArray[0]
+  let price2 = valueArray[1]
+  let price3 = valueArray[2]
+  console.log(`In your cart, you have ${item1} at $${price1}, ${item2} at $${price2}, and ${item3} at $${price3}.)
 }
 }
 
