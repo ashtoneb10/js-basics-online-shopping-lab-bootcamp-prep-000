@@ -39,8 +39,8 @@ function viewCart() {
     let trueValue = value[0]
     let key = Object.keys(object)
     let trueKey = key[0]
-    valueArray.push(trueValue)
-    keyArray.push(trueKey)
+    let valueArray = valueArray.push(trueValue)
+    let keyArray = keyArray.push(trueKey)
   } console.log(`In your cart, you have ${keyArray[0]} at $${valueArray[0]} and ${keyArray[1]} at $${valueArray[1]}.`)
 }
 }
