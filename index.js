@@ -41,7 +41,8 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNumber) {
-  if(cardNumber){
+  let numberPresent = cardNumber
+  if(numberPresent){
     let totalCost = total()
     console.log(`Your total cost is ${totalCost} , which will be chared to the card ${cardNumber}.`)
     cart = []
