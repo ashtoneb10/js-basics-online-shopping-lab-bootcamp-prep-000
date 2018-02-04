@@ -29,6 +29,7 @@ function viewCart() {
    console.log(`In your cart, you have ${key} at ${value}.`)
  }
 }
+}
 
 function total() {
   let total = 0;
