@@ -26,7 +26,7 @@ function viewCart() {
     let object = cart[i]
     let value = Object.values(object)
     let key = Object.keys(object)
-   console.log(`In your cart, you have`)
+   console.log(`In your cart, you have ${key} at ${value}.`)
  }
 }
 
