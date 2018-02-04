@@ -41,7 +41,7 @@ function removeFromCart(item) {
   for(let i = 0; i<cart.length; i++){
     let object = cart[i]
     if(object.hasOwnProperty(item)){
-      delete cart[i]
+      
     } else {
       total = total ++
     } 
