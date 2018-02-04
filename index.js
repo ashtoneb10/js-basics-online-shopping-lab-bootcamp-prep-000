@@ -30,7 +30,8 @@ function total() {
   let total = 0;
 for(let i = 0; i<cart.length; i++){
     let object = cart[i]
-    total = total + object;
+    let value = Object.values(object)
+    total = total + value;
 } return total
 }
 
